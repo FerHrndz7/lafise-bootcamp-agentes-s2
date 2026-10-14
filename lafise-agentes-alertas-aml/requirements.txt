@@ -1,0 +1,8 @@
+# Librerías de clúster para la Sesión 2 (verificadas en DBR 17.3 LTS, 2026-10-08)
+databricks-langchain>=0.20.0
+langgraph>=1.2,<1.3
+unitycatalog-langchain[databricks]>=0.3.0
+mlflow[databricks]>=3.17
+databricks-agents>=1.12
+databricks-sdk>=0.94.0
+faker>=25.0.0
