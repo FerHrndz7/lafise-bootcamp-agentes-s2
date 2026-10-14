@@ -18,17 +18,20 @@ MLflow Tracing, supervisor con sub-agentes y registro del agente en Unity Catalo
 
 ## Cómo cargarlo en Databricks
 
-**Opción A (recomendada): Git folder.** No requiere descargar archivos.
+**Opción A (recomendada): archivo `.dbc`.** Importa todo el árbol de notebooks en un clic.
+1. Descargar el archivo desde este repositorio: abrir `build/lafise-agentes-alertas-aml-s2.dbc` y pulsar **Download raw file**
+   (o usar el enlace directo
+   `https://github.com/FerHrndz7/lafise-bootcamp-agentes-s2/raw/main/build/lafise-agentes-alertas-aml-s2.dbc`).
+2. En el workspace: **Workspace → (carpeta destino) → Import → File** y subir el `.dbc`.
+3. Abrir `lafise-agentes-alertas-aml/00 - Course Overview`.
+
+**Opción B: Git folder.** No requiere descargar archivos.
 1. En el workspace: **Workspace → Create → Git folder**.
 2. URL: `https://github.com/FerHrndz7/lafise-bootcamp-agentes-s2`, proveedor **GitHub** (repositorio público, no
    requiere credenciales).
-3. Abrir `lafise-agentes-alertas-aml/00 - Course Overview`.
 
-**Opción B: descargar el ZIP.** En GitHub: **Code → Download ZIP**, descomprimir e importar la carpeta
+**Opción C: descargar el ZIP.** En GitHub: **Code → Download ZIP**, descomprimir e importar la carpeta
 `lafise-agentes-alertas-aml` al workspace.
-
-**Opción C: archivo `.dbc`.** Descargar `build/lafise-agentes-alertas-aml-s2.dbc` y subirlo con **Workspace → Import → File**
-(importa todo el árbol en un clic). Si el firewall bloquea archivos `.dbc`, usar la opción A o B.
 
 ## Prueba completa antes de la sesión (30 a 40 min)
 
