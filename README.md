@@ -14,6 +14,7 @@ MLflow Tracing, supervisor con sub-agentes y registro del agente en Unity Catalo
 | `lafise-agentes-alertas-aml/Modulo 2 - Agentes code-first/` | Notebooks `00_setup` a `04` (código completo) y `05_reto` (tarea), con `solutions/`, `data/` y `utils/` |
 | `lafise-agentes-alertas-aml/requirements.txt` | Librerías (para instalarlas como librerías de clúster si no hay salida a PyPI) |
 | `validacion/validacion_entorno_lafise_s2.py` | Notebook de validación de entorno |
+| `build/lafise-agentes-alertas-aml-s2.dbc` | El mismo árbol de notebooks en un solo archivo, para importar en un clic |
 
 ## Cómo cargarlo en Databricks
 
@@ -25,6 +26,9 @@ MLflow Tracing, supervisor con sub-agentes y registro del agente en Unity Catalo
 
 **Opción B: descargar el ZIP.** En GitHub: **Code → Download ZIP**, descomprimir e importar la carpeta
 `lafise-agentes-alertas-aml` al workspace.
+
+**Opción C: archivo `.dbc`.** Descargar `build/lafise-agentes-alertas-aml-s2.dbc` y subirlo con **Workspace → Import → File**
+(importa todo el árbol en un clic). Si el firewall bloquea archivos `.dbc`, usar la opción A o B.
 
 ## Prueba completa antes de la sesión (30 a 40 min)
 
